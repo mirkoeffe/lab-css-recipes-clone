@@ -106,3 +106,15 @@ ul {
 ol {
   margin: 20px auto 10px 30px;
 }
+
+/* 
+In this project the bullets points of the list should have been removed with the list-styles: none
+and then adding a dash by selecting the class and then li:before sudo selector
+
+
+For the numbered list instead, the default numbers should have been removed and changed with::after
+
+counter-reset: list
+first to reset the numbers of the ordered list, then
+selecting the li:before of the ordered list and changing it.. for a better solution ask chatGPT
+*/
